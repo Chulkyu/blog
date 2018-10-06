@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Best Organizer Software
+title: About Swift Language
 date: 2018-10-06 15:35:00 +0300
 description: Learning Swift Language
 img: software.jpg # Add image post (optional)
