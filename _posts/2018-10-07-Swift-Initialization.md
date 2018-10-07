@@ -3,7 +3,7 @@ layout: post
 title: Swift Initialization
 date: 2018-10-07 16:11:00 +0300
 description: About Swift Initialization # Add post description (optional)
-img: software.jpg # Add image post (optional)
+img: swift-Initialization.jpg # Add image post (optional)
 tags: [Swift, Initialization, Developer, Apple, Xcode] # add tag
 ---
 
