@@ -3,8 +3,8 @@ layout: post
 title: About Swift Language
 date: 2018-10-06 15:35:00 +0300
 description: Learning Swift Language
-img: software.jpg # Add image post (optional)
-tags: [Productivity, Software] # add tag
+img: swift-Language.jpeg # Add image post (optional)
+tags: [Swift, Software, Programming, Xcode, Developer, Apple] # add tag
 ---
 
 
