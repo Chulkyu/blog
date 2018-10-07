@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TIL
+title: Today I Learbed
 date: 2017-09-20 17:00:00 +0300
 description: Today I Learned # Add post description (optional)
 img: how-to-start.jpg # Add image post (optional)
