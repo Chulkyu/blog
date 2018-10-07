@@ -113,7 +113,7 @@ let simple3 = SimpleClass2() // error 발생
 // "Missing argument for parameter 'v' in call"
 ```
 
-- #### fuction과 같이 init도 호출시 argument 생략 가능하다.( _ )
+- #### function과 같이 init도 호출시 argument 생략 가능하다.( _ )
 
 ```swift
 class SimpleClass {
@@ -262,5 +262,29 @@ let bodyTemperature = Celsius(37.0)
 // argument 생략
 // bodyTemperature.temperatureInCelsius is 37.0
 ```
+
+------
+
+- ### Deinitalization
+
+#### - init의 반대 요소
+
+##### * deinit은 클래스에서만 사용 가능
+
+#### - deinit은 parameter를 가질 수 없다.
+
+```swift
+class SimpleClass {
+    var value = 0
+
+    deinit {
+        self.value = 0
+    }
+}
+```
+
+##### deinit은 클래스 인스턴스가 필요 없어져 메모리에서 사라질 때(레퍼런스 카운트가 0이 될 때) 호출되는 기능. 주로 자신이 점찍어 놓은(retain) 다른 인스턴스의 메모리가 해제 될 수 있도록 조치(release)해 주는 것이 목적이지만, swift는 ARC 기반 하에 있어서 이런 행위는 거의 필요 없다.
+
+##### * swift에서 deinit은 Singleton 인스턴스 등이 자신의 인스턴스를 활용하고 있다면 해당 Singleton 인스턴스에서 자신을 참조하지 않도록 처리하는데 주로 사용되지 않을까..?
 
 ------
