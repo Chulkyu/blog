@@ -6,11 +6,8 @@ description: About Swift Property get & set , didSet & willSet # Add post descri
 img: swift-get-set.png # Add image post (optional)
 tags: [Swift, Property, Developer, Apple, Xcode, get, set, didSet, willSet, observer] # add tag
 ---
-#####
 
-------
-
-## *Property get, set, didSet, willSet
+ *Property get, set, didSet, willSet
 
 #### - property에는 {get, set} 또는 {didSet, willSet} 을 사용 가능
 
