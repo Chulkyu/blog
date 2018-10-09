@@ -4,10 +4,10 @@ title: Swift OOP(Object Oriented Programing)
 date: 2018-10-08 09:43:00 +0300
 description: About Swift OOP(Object Oriented Programing) # Add post description (optional)
 img: swift-oop.jpg # Add image post (optional)
-tags: [Swift, OOP, Developer, Apple, Xcode] # add tag
+tags: [Swift, OOP, Developer, Apple, Xcode, 객체지향, 스위프트] # add tag
 ---
 
-## * OOP (Object - Oriented Programming)
+## * OOP (Object Oriented Programming)
 
 #### - 프로그래밍에도 코드를 더 효율적으로 만들고 작성하기 위한 패러다임이 존재.
 
