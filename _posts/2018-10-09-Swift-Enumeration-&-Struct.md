@@ -3,7 +3,7 @@ layout: post
 title: Swift Enumerations and Structures
 date: 2018-10-09 21:24:00 +0300
 description: About Swift Enumerations and Structures # Add post description (optional)
-img: Swift Enumerations and Structures.png # Add image post (optional)
+img: Swift-Enumerations-and-Structures.png # Add image post (optional)
 tags: [Swift, Enumerations, enum, struct, Structures, Developer, Apple, Xcode, 스위프트] # add tag
 ---
 
@@ -327,13 +327,13 @@ obj2.value          // 100
 
 #### - class의 경우(Reference type) Stack에 레퍼런스, Heap에 구조체 할당
 
-![call by reference1](/Users/maru/Desktop/blog/flexible-jekyll/assets/img/call by reference1.png)
+![call by reference1](/Users/maru/Desktop/blog/flexible-jekyll/assets/img/call-by-reference1.png)
 
 #### - Reference 타입은 복사해도 값이 하나를 향해 같은 값을 가짐
 
-![call by reference2](/Users/maru/Desktop/blog/flexible-jekyll/assets/img/call by reference2.png)
+![call by reference2](/Users/maru/Desktop/blog/flexible-jekyll/assets/img/call-by-reference2.png)
 
-![call by reference3](/Users/maru/Desktop/blog/flexible-jekyll/assets/img/call by reference3.png)
+![call by reference3](/Users/maru/Desktop/blog/flexible-jekyll/assets/img/call-by-reference3.png)
 
 
 
@@ -343,16 +343,18 @@ obj2.value          // 100
 
 #### - struct(Value type)의 경우  포인트가 stack에만 쌓이고 복사해도 stack만 사용
 
-![call by value](/Users/maru/Desktop/blog/flexible-jekyll/assets/img/call by value1.png)
+![call by value](/Users/maru/Desktop/blog/flexible-jekyll/assets/img/call-by-value1.png)
 
-![call by value2](/Users/maru/Desktop/blog/flexible-jekyll/assets/img/call by value2.png)
+![call by value2](/Users/maru/Desktop/blog/flexible-jekyll/assets/img/call-by-value2.png)
 
 #### - Value 타입의 경우 복사해도 분리됨
 
-![call by value3](/Users/maru/Desktop/blog/flexible-jekyll/assets/img/call by value3.png)
+![call by value3](/Users/maru/Desktop/blog/flexible-jekyll/assets/img/call-by-value3.png)
 
 
 
 #### [enum,struct 참조1](https://devxoul.gitbooks.io/ios-with-swift-in-40-hours/content/Chapter-3/enums.html)
 
 #### [enum,struct 참조2](https://academy.realm.io/kr/posts/letswift-swift-performance/)
+
+------
